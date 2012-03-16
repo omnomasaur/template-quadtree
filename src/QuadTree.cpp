@@ -1,6 +1,5 @@
 
 #include "QuadTree.h"
-#include "TerrainParticle.h"
 
 namespace qt
 {

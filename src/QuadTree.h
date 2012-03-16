@@ -1,6 +1,6 @@
 //File: QuadTree.h
 //Author: Eric Kasper
-//About: This is a quadtree for holding our terrain particles in an optimal manner.  
+//About: This is a quadtree using templates and stl.
 //More info: Wikipedia for quadtrees.
 
 #pragma once
@@ -10,15 +10,6 @@
 
 namespace qt
 {
-	//Used by the array version of get objects that was slower
-	//struct ObjectArray
-	//{
-	//	ObjectArray(){ mCount = 0; }
-	//	~ObjectArray(){ if(mCount > 0) { mCount = 0; delete [] mObjects; } }
-	//	unsigned int mCount;
-	//	TerrainParticle** mObjects;
-	//};
-
 	template<class Object>
 
 	struct ObjectContainer
